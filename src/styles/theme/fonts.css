@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "NKG-Book";
+  src: url("../../assets/fonts/NeueKonstantGrotesk-Book.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ranade-Thin";
+  src: url("../../assets/fonts/Ranade-Thin.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ranade-Regular";
+  src: url("../../assets/fonts/Ranade-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url("../../assets/fonts/Archivo-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}

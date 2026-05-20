@@ -1,0 +1,7 @@
+[data-theme="dark"] {
+  --color-bg: #0f172a;
+  --color-text: #e5e7eb;
+
+  --color-accent: #2dd4bf; /* teal (lighter) */
+  --color-accent-2: #fb7185; /* coral (soft pink-red) */
+}
