@@ -1,4 +1,4 @@
-import type { ContactInfo } from "../types/ContactInfoType";
+import type { ContactInfo } from "../../types/ContactInfoType";
 
 export default function ContactInfo(props: ContactInfo) {
   return (

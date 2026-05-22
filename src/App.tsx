@@ -1,7 +1,7 @@
-import Hero from "./components/Hero.tsx";
-import About from "./components/About.tsx";
-import ProjectSection from "./components/ProjectSection.tsx";
-import ContactInfo from "./components/ContactSection.tsx";
+import Hero from "./components/Hero/Hero.tsx";
+import About from "./components/Hero/About.tsx";
+import ProjectSection from "./components/Projects/ProjectSection.tsx";
+import ContactInfo from "./components/Contact/ContactSection.tsx";
 import { aboutData } from "./data/About.ts";
 import { contactInfo } from "./data/ContactInfo.ts";
 

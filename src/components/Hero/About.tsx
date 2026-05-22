@@ -1,5 +1,5 @@
-import styles from "../styles/components/About.module.css";
-import type { About } from "../types/AboutType";
+import styles from "./About.module.css";
+import type { About } from "../../types/AboutType";
 
 export default function About(props: About) {
   return (

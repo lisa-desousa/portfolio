@@ -4,41 +4,45 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "Webplats för fastighetsbolag",
-    description: "",
+    description:
+      "Cadesto är ett fastighetsbolag som fokuserar på arr erbjuda moderna och hållbara bostäder. Webbplatsen är designad och byggd från grunden utifrån företagets kravspec med teknologier såsom Next.js, Tailwind och Sanity.",
     link: {
-      url: "",
+      url: "https://www.cadestofastigheter.se/",
       text: "besök sidan här",
     },
-    image: "",
+    image: "./public/cadesto_mockup_2device.webp",
   },
   {
     id: 2,
     title: "Rick & Morty App",
-    description: "",
+    description:
+      "Cadesto är ett fastighetsbolag som fokuserar på arr erbjuda moderna och hållbara bostäder. Webbplatsen är designad och byggd från grunden utifrån företagets kravspec med teknologier såsom Next.js, Tailwind och Sanity.",
     link: {
-      url: "",
+      url: "https://www.cadestofastigheter.se/",
       text: "besök sidan här",
     },
-    image: "",
+    image: "./../../public/cadesto_mockup.webp",
   },
   {
     id: 3,
     title: "Agilt grupparbete",
-    description: "",
+    description:
+      "Cadesto är ett fastighetsbolag som fokuserar på arr erbjuda moderna och hållbara bostäder. Webbplatsen är designad och byggd från grunden utifrån företagets kravspec med teknologier såsom Next.js, Tailwind och Sanity.",
     link: {
-      url: "",
+      url: "https://www.cadestofastigheter.se/",
       text: "besök sidan här",
     },
-    image: "",
+    image: "./../../public/cadesto_mockup.webp",
   },
   {
     id: 4,
     title: "Backend med Express",
-    description: "",
+    description:
+      "Cadesto är ett fastighetsbolag som fokuserar på arr erbjuda moderna och hållbara bostäder. Webbplatsen är designad och byggd från grunden utifrån företagets kravspec med teknologier såsom Next.js, Tailwind och Sanity.",
     link: {
-      url: "",
+      url: "https://www.cadestofastigheter.se/",
       text: "besök sidan här",
     },
-    image: "",
+    image: "./../../public/cadesto_mockup.webp",
   },
 ];
