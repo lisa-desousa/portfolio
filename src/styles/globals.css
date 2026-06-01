@@ -25,4 +25,5 @@ h4,
 h5,
 h6 {
   font-family: var(--font-header);
+  margin-top: var(--space-sm);
 }

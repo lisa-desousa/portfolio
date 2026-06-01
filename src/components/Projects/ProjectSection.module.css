@@ -1,5 +1,10 @@
 .section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  margin: 0 var(--space-xl);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.title {
+  margin: 0 var(--space-xl);
 }

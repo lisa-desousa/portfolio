@@ -3,46 +3,46 @@ import type { Project } from "../types/ProjectType";
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Webplats för fastighetsbolag",
+    title: "Cadesto Fastigheter",
     description:
       "Cadesto är ett fastighetsbolag som fokuserar på arr erbjuda moderna och hållbara bostäder. Webbplatsen är designad och byggd från grunden utifrån företagets kravspec med teknologier såsom Next.js, Tailwind och Sanity.",
     link: {
       url: "https://www.cadestofastigheter.se/",
-      text: "besök sidan här",
+      text: "Besök sidan här",
     },
-    image: "./public/cadesto_mockup_2device.webp",
+    image: "/cadesto_mockup.webp",
   },
   {
     id: 2,
     title: "Rick & Morty App",
     description:
-      "Cadesto är ett fastighetsbolag som fokuserar på arr erbjuda moderna och hållbara bostäder. Webbplatsen är designad och byggd från grunden utifrån företagets kravspec med teknologier såsom Next.js, Tailwind och Sanity.",
+      "En mobilapp byggd med React Native, Expo Router och TypeScript. Appen låter användare bläddra bland karaktärer från serien Rick & Morty, se detaljer, spara favoriter och söka/filtera karaktärer. Appen använder sig av data från Rick and Morty API och har en infinite-scroll-funktion för att ladda karaktärer dynamiskt.",
     link: {
-      url: "https://www.cadestofastigheter.se/",
-      text: "besök sidan här",
+      url: "https://github.com/lisa-desousa/rick_and_morty_app",
+      text: "GitHub-repo",
     },
-    image: "./../../public/cadesto_mockup.webp",
+    image: "/rick_morty_mockup.webp",
   },
   {
     id: 3,
-    title: "Agilt grupparbete",
+    title: "DogApp",
     description:
-      "Cadesto är ett fastighetsbolag som fokuserar på arr erbjuda moderna och hållbara bostäder. Webbplatsen är designad och byggd från grunden utifrån företagets kravspec med teknologier såsom Next.js, Tailwind och Sanity.",
+      "DogApp är en fullstack-applikation byggd med bl.a. React, Express och MySQL. Applikationen gjordes som ett grupparbete med syfte att utveckla samarbetsförmåga och agil metodik. Länk till webbplatsen kommer snart!",
     link: {
-      url: "https://www.cadestofastigheter.se/",
-      text: "besök sidan här",
+      url: "",
+      text: "",
     },
-    image: "./../../public/cadesto_mockup.webp",
+    image: "/placeholder.webp",
   },
   {
     id: 4,
     title: "Backend med Express",
     description:
-      "Cadesto är ett fastighetsbolag som fokuserar på arr erbjuda moderna och hållbara bostäder. Webbplatsen är designad och byggd från grunden utifrån företagets kravspec med teknologier såsom Next.js, Tailwind och Sanity.",
+      "Databasdesign och backend-utveckling med Express och MySQL. Projektet utgick från kunskapsdomänen 'Biograf' och syftade till att skapa ett REST-API som hanterar data relaterat till filmer, salonger och visningar.",
     link: {
-      url: "https://www.cadestofastigheter.se/",
-      text: "besök sidan här",
+      url: "https://github.com/lisa-desousa/f25d_backend_slutprojekt",
+      text: "GitHub-repo",
     },
-    image: "./../../public/cadesto_mockup.webp",
+    image: "/backend.webp",
   },
 ];

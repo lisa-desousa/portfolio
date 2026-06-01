@@ -4,7 +4,7 @@
   /* Colors */
   --color-bg-default: #f7f8fa;
   --color-bg: linear-gradient(180deg, #f7f8fa 0%, #14b8a6 100%);
-  --color-text: #1c1f26;
+  --color-text: #052724;
   --color-accent: #14b8a6;
   --color-accent-2: #f9735b;
 
@@ -23,7 +23,6 @@
   --radius-lg: 12px;
 
   /* Typography */
-  /* lägg till font-body */
   --font-h1: "NKG-book";
   --font-body: "Ranade-Thin";
   --font-header: "Archivo";

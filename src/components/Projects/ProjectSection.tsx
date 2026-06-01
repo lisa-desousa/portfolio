@@ -7,7 +7,7 @@ export default function ProjectSection() {
 
   return (
     <>
-      <h2>Projekt</h2>
+      <h2 className={styles.title}>Projekt</h2>
       <section className={styles.section}>
         {projectData.map((project) => (
           <ProjectCard key={project.id} {...project} />

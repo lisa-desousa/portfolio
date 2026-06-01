@@ -1,17 +1,19 @@
 .container {
-  width: 100%;
+  /* stretch är som 100% men inkluderat margin */
+  width: stretch;
   height: 60vh;
   display: flex;
-  margin: 0px 0px;
+  /* margin: 0px 0px; */
   justify-content: center;
   /* align-items: center; */
   flex-direction: column;
 }
 
 .title {
-  font-size: 40px;
+  /* clamp tar ett preffered value (5vw) och justerar storleken efter viewport. om storleken faller under font-size-lg stannar den där, eller om den hamnar över 3rem stannar den där */
+  font-size: clamp(var(--font-size-lg), 5vw, 3rem);
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: var(--space-xs);
   line-height: 0.5;
   margin: 0 30px;
 }
@@ -26,8 +28,7 @@
 
 @media (max-width: 768px) {
   .title {
-    font-size: 22px;
-    letter-spacing: 2px;
+    letter-spacing: var(--spece-xs);
     text-align: center;
     margin: 0;
   }
