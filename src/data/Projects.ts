@@ -10,7 +10,7 @@ export const projects: Project[] = [
       url: "https://www.cadestofastigheter.se/",
       text: "Besök sidan här",
     },
-    image: "/cadesto_mockup.webp",
+    image: "/portfolio/cadesto_mockup.webp",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const projects: Project[] = [
       url: "https://github.com/lisa-desousa/rick_and_morty_app",
       text: "GitHub-repo",
     },
-    image: "/rick_morty_mockup.webp",
+    image: "/portfolio/rick_morty_mockup.webp",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ export const projects: Project[] = [
       url: "",
       text: "",
     },
-    image: "/placeholder.webp",
+    image: "/portfolio/placeholder.webp",
   },
   {
     id: 4,
@@ -43,6 +43,6 @@ export const projects: Project[] = [
       url: "https://github.com/lisa-desousa/f25d_backend_slutprojekt",
       text: "GitHub-repo",
     },
-    image: "/backend.webp",
+    image: "/portfolio/backend.webp",
   },
 ];
