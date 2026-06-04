@@ -4,7 +4,7 @@ import styles from "./ProjectCard.module.css";
 export default function ProjectCard(props: Project) {
   return (
     <div className={styles.card}>
-      <h2>{props.title}</h2>
+      <h3>{props.title}</h3>
       <p>{props.description}</p>
 
       {/* map här! ibland vill man ha länk till deploy + repo */}

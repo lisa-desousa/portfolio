@@ -29,10 +29,10 @@ export const projects: Project[] = [
     description:
       "DogApp är en fullstack-applikation byggd med bl.a. React, Express och MySQL. Applikationen gjordes som ett grupparbete med syfte att utveckla samarbetsförmåga och agil metodik. Länk till webbplatsen kommer snart!",
     link: {
-      url: "",
-      text: "",
+      url: "https://dog-app-inky.vercel.app/",
+      text: "Besök sidan här",
     },
-    image: "/portfolio/placeholder.webp",
+    image: "/portfolio/dogapp_mockup.webp",
   },
   {
     id: 4,

@@ -4,6 +4,7 @@ import ProjectSection from "./components/Projects/ProjectSection.tsx";
 import ContactInfo from "./components/Contact/ContactSection.tsx";
 import { aboutData } from "./data/About.ts";
 import { contactInfo } from "./data/ContactInfo.ts";
+import Background from "./components/Background/Background.tsx";
 
 //Vilka delar vill jag ha med?
 //Struktur: en sida, navbar scrollar ner till de olika sektionerna. Lite snygga scroll-animationer. Diskreta hover-animationer.
@@ -21,6 +22,7 @@ function App() {
 
   return (
     <>
+      <Background />
       <Hero />
       <About name={name} description={description} />
       <ProjectSection />

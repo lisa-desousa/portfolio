@@ -4,7 +4,17 @@
   /* Colors */
   --color-bg-default: #f7f8fa;
   --color-bg: linear-gradient(180deg, #f7f8fa 0%, #14b8a6 100%);
-  --color-text: #052724;
+  --color-gradient: linear-gradient(
+    45deg,
+    #845ec2,
+    #d65db1,
+    #ff6f91,
+    #ff9671,
+    #ffc75f,
+    #f9f871
+  );
+  --color-text: #2a002b;
+  --color-text-light: #4d004f;
   --color-accent: #14b8a6;
   --color-accent-2: #f9735b;
 

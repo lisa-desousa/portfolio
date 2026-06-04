@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: var(--font-body);
-  background: var(--color-bg);
+  /* background: var(--color-bg); */
   color: var(--color-text);
   transition:
     background var(--transition-mid),
@@ -16,7 +16,8 @@ body {
 
 h1 {
   font-family: var(--font-h1);
-  color: var(--color-accent);
+
+  /* color: var(--color-text-light); */
 }
 
 h2,

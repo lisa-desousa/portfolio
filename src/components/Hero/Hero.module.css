@@ -16,6 +16,13 @@
   letter-spacing: var(--space-xs);
   line-height: 0.5;
   margin: 0 30px;
+
+  background-image: var(--color-gradient);
+  background-clip: text;
+  background-position: right;
+  background-size: 100%;
+  color: transparent;
+  animation: bg-animation 20s infinite alternate;
 }
 
 .upper {
@@ -37,5 +44,13 @@
   }
   .lower {
     padding-left: 60px;
+  }
+}
+@keyframes bg-animation {
+  0% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
   }
 }
