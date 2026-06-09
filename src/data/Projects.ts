@@ -16,7 +16,7 @@ export const projects: Project[] = [
     id: 2,
     title: "Rick & Morty App",
     description:
-      "En mobilapp byggd med React Native, Expo Router och TypeScript. Appen låter användare bläddra bland karaktärer från serien Rick & Morty, se detaljer, spara favoriter och söka/filtera karaktärer. Appen använder sig av data från Rick and Morty API och har en infinite-scroll-funktion för att ladda karaktärer dynamiskt.",
+      "En mobilapp byggd med React Native, Expo Router och TypeScript. Appen låter användare bläddra bland karaktärer från serien Rick & Morty, se detaljer, spara favoriter och söka/filtera karaktärer.",
     link: {
       url: "https://github.com/lisa-desousa/rick_and_morty_app",
       text: "GitHub-repo",
@@ -27,9 +27,9 @@ export const projects: Project[] = [
     id: 3,
     title: "DogApp",
     description:
-      "DogApp är en fullstack-applikation byggd med bl.a. React, Express och MySQL. Applikationen gjordes som ett grupparbete med syfte att utveckla samarbetsförmåga och agil metodik. Länk till webbplatsen kommer snart!",
+      "DogApp är en fullstack-applikation byggd med bl.a. React, Express och MySQL. Applikationen gjordes som ett grupparbete med syfte att utveckla samarbetsförmåga och agil metodik.",
     link: {
-      url: "https://dog-app-inky.vercel.app/",
+      url: "https://dog-app-thwi.vercel.app/",
       text: "Besök sidan här",
     },
     image: "/portfolio/dogapp_mockup.webp",

@@ -8,9 +8,12 @@ export default function ProjectSection() {
   return (
     <>
       <h2 className={styles.title}>Projekt</h2>
+
       <section className={styles.section}>
-        {projectData.map((project) => (
-          <ProjectCard key={project.id} {...project} />
+        {projectData.map((project, i) => (
+          <div key={project.id} style={{ "--i": i } as React.CSSProperties}>
+            <ProjectCard {...project} />
+          </div>
         ))}
       </section>
     </>
