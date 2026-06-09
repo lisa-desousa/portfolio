@@ -8,7 +8,7 @@
   height: 500px;
 
   opacity: 0;
-  transform: translateY(200px);
+  transform: translateY(250px);
   animation: floatUp 0.8s ease-out forwards;
   /* applicera style i map() i grid */
   animation-delay: calc(var(--i) * 0.3s);

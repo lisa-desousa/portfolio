@@ -1,5 +1,5 @@
 .section {
   width: clamp(375px, 50%, 600px);
   max-width: stretch;
-  margin: 0 var(--space-xl);
+  /* margin: 0 var(--space-xl); */
 }
