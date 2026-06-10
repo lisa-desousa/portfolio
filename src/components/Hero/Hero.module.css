@@ -19,6 +19,7 @@
 
   background-image: var(--color-gradient);
   background-clip: text;
+  text-shadow: -6px -6px white;
   background-position: right;
   background-size: 100%;
   color: transparent;
