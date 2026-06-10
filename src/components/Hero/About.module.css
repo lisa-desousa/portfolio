@@ -1,5 +1,29 @@
 .section {
   width: clamp(375px, 50%, 600px);
   max-width: stretch;
+  position: relative;
+  padding: var(--space-md) var(--space-2xl);
   /* margin: 0 var(--space-xl); */
+}
+
+.section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: 50px 180px 180px 50px;
+
+  background-color: var(--color-bg-default);
+  animation: focus 1s ease-out forwards;
+}
+
+@keyframes focus {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }

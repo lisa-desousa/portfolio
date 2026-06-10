@@ -23,7 +23,11 @@
   background-position: right;
   background-size: 100%;
   color: transparent;
-  animation: bg-animation 20s infinite alternate;
+  animation:
+    bg-animation 20s infinite alternate,
+    fadeOut 1s ease-out;
+  animation-timeline: view();
+  animation-range: exit;
 }
 
 .upper {
@@ -53,5 +57,11 @@
   }
   100% {
     background-position: left;
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
   }
 }

@@ -3,27 +3,31 @@
   border-radius: var(--radius-lg);
   background-color: var(--color-bg-default);
   padding: var(--space-md);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: -8px 8px 2px rgba(0, 0, 0, 0.22);
   font-size: 16px;
   height: 500px;
-
+  display: flex;
+  flex-direction: column;
   opacity: 0;
-  transform: translateY(250px);
+  transform: translateY(300px);
   animation: floatUp 0.8s ease-out forwards;
-  /* applicera style i map() i grid */
   animation-delay: calc(var(--i) * 0.3s);
-  /* animation startar när den kommer in i viewport */
   animation-timeline: view();
-  /*  */
-  animation-range: entry 0% cover 40%;
+  animation-range: entry cover 40%;
+}
+
+.card:hover {
+  box-shadow: -8px 8px 1px rgba(0, 0, 0, 0.3);
+  color: var(--color-text-dark);
+  transition: all 0.3s ease;
 }
 
 .imageContainer {
-  /* positionera så dett den är "sticky på botten */
   width: 100%;
   height: 250px;
   overflow: hidden;
   border-radius: var(--radius-sm);
+  margin-top: auto;
 }
 
 .image {
@@ -32,9 +36,35 @@
   object-fit: cover;
 }
 
+.link {
+  background-color: var(--color-text);
+  width: fit-content;
+  color: white;
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: 150px;
+  margin: var(--space-md) 0;
+}
+
+.link:hover {
+  animation: colorFill 0.5s forwards;
+  cursor: pointer;
+}
+
+.link a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @keyframes floatUp {
   to {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@keyframes colorFill {
+  to {
+    background-color: var(--color-accent-2);
+    /* pil här */
   }
 }

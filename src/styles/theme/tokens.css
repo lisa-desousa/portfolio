@@ -13,10 +13,10 @@
     #ffc75f,
     #f9f871
   );
-  --color-text: #2a002b;
-  --color-text-light: #4d004f;
+  --color-text: #590031;
+  --color-text-dark: #1e0010;
   --color-accent: #14b8a6;
-  --color-accent-2: #f9735b;
+  --color-accent-2: #ff6831;
 
   /* Spacing scale */
   --space-2xs: 2px;

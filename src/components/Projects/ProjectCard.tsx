@@ -7,8 +7,10 @@ export default function ProjectCard(props: Project) {
       <h3>{props.title}</h3>
       <p>{props.description}</p>
 
-      {/* map här! ibland vill man ha länk till deploy + repo */}
-      <a href={props.link.url}>{props.link.text}</a>
+      {/* map här? man kanske vill ha länk till deploy + repo */}
+      <div className={styles.link}>
+        <a href={props.link.url}>{props.link.text}</a>
+      </div>
       {/* object-fill här */}
       <div className={styles.imageContainer}>
         <img
