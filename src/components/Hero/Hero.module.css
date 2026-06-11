@@ -11,44 +11,44 @@
 
 .title {
   /* clamp tar ett preffered value (5vw) och justerar storleken efter viewport. om storleken faller under font-size-lg stannar den där, eller om den hamnar över 3rem stannar den där */
-  font-size: clamp(var(--font-size-lg), 5vw, 3rem);
+  font-size: var(--font-size-hero);
   text-transform: uppercase;
-  letter-spacing: var(--space-xs);
+  letter-spacing: var(--letter-spacing-heading);
   line-height: 0.5;
   margin: 0 30px;
 
   background-image: var(--color-gradient);
   background-clip: text;
-  text-shadow: -6px -6px white;
+  text-shadow: -6px -6px var(--color-text-inverse);
   background-position: right;
   background-size: 100%;
   color: transparent;
   animation:
     bg-animation 20s infinite alternate,
-    fadeOut 1s ease-out;
+    fadeOut var(--duration-fade);
   animation-timeline: view();
   animation-range: exit;
 }
 
 .upper {
-  padding-right: 150px;
+  padding-right: var(--space-6xl);
 }
 
 .lower {
-  padding-left: 150px;
+  padding-left: var(--space-6xl);
 }
 
 @media (max-width: 768px) {
   .title {
-    letter-spacing: var(--spece-xs);
+    letter-spacing: var(--letter-spacing-heading);
     text-align: center;
     margin: 0;
   }
   .upper {
-    padding-right: 60px;
+    padding-right: var(--space-4xl);
   }
   .lower {
-    padding-left: 60px;
+    padding-left: var(--space-4xl);
   }
 }
 @keyframes bg-animation {

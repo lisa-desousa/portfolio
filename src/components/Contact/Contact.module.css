@@ -1,9 +1,9 @@
 .section {
   background-color: var(--color-bg-default);
   max-width: 350px;
-  border-radius: 150px;
-  padding: 0 80px;
-  margin: 50px auto;
+  border-radius: var(--radius-rounded);
+  padding: 0 var(--space-5xl);
+  margin: var(--space-3xl) auto;
   display: flex;
   flex-direction: column;
 }

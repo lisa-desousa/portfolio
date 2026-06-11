@@ -11,10 +11,10 @@
   position: absolute;
   inset: 0;
   z-index: -1;
-  border-radius: 50px 180px 180px 50px;
+  border-radius: 50px var(--radius-pill) var(--radius-pill) 50px;
 
   background-color: var(--color-bg-default);
-  animation: focus 1s ease-out forwards;
+  animation: focus var(--duration-focus);
 }
 
 @keyframes focus {

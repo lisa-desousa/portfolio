@@ -1,25 +1,25 @@
 .card {
-  border: 1px solid #ccc;
+  border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   background-color: var(--color-bg-default);
   padding: var(--space-md);
-  box-shadow: -8px 8px 2px rgba(0, 0, 0, 0.22);
-  font-size: 16px;
+  box-shadow: var(--shadow-md);
+  font-size: var(--font-size-base);
   height: 500px;
   display: flex;
   flex-direction: column;
   opacity: 0;
   transform: translateY(300px);
-  animation: floatUp 0.8s ease-out forwards;
+  animation: floatUp var(--duration-entrance);
   animation-delay: calc(var(--i) * 0.3s);
   animation-timeline: view();
   animation-range: entry cover 40%;
 }
 
 .card:hover {
-  box-shadow: -8px 8px 1px rgba(0, 0, 0, 0.3);
-  color: var(--color-text-dark);
-  transition: all 0.3s ease;
+  box-shadow: var(--shadow-md-hover);
+  color: var(--color-text-hover);
+  transition: all var(--transition-hover);
 }
 
 .imageContainer {
@@ -39,14 +39,14 @@
 .link {
   background-color: var(--color-text);
   width: fit-content;
-  color: white;
+  color: var(--color-text-inverse);
   padding: var(--space-sm) var(--space-lg);
-  border-radius: 150px;
+  border-radius: var(--radius-rounded);
   margin: var(--space-md) 0;
 }
 
 .link:hover {
-  animation: colorFill 0.5s forwards;
+  animation: colorFill var(--transition-smooth);
   cursor: pointer;
 }
 

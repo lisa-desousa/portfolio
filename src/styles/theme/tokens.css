@@ -1,9 +1,8 @@
 @import "./fonts.css";
 
 :root {
-  /* Colors */
+  /* Colors - Brand */
   --color-bg-default: #f7f8fa;
-  --color-bg: linear-gradient(180deg, #f7f8fa 0%, #14b8a6 100%);
   --color-gradient: linear-gradient(
     45deg,
     #845ec2,
@@ -14,33 +13,51 @@
     #f9f871
   );
   --color-text: #590031;
-  --color-text-dark: #1e0010;
-  --color-accent: #14b8a6;
+  --color-text-hover: #1e0010;
   --color-accent-2: #ff6831;
 
+  /* Colors - UI */
+  --color-border: #cccccc;
+  --color-shadow: rgba(0, 0, 0, 0.22);
+  --color-shadow-hover: rgba(0, 0, 0, 0.3);
+  --color-text-inverse: #ffffff;
+
   /* Spacing scale */
-  --space-2xs: 2px;
   --space-xs: 4px;
   --space-sm: 8px;
   --space-md: 12px;
   --space-lg: 16px;
-  --space-xl: 24px;
   --space-2xl: 32px;
+  --space-3xl: 50px;
+  --space-4xl: 60px;
+  --space-5xl: 80px;
+  --space-6xl: 150px;
 
   /* Radius */
   --radius-sm: 4px;
   --radius-md: 8px;
   --radius-lg: 12px;
+  --radius-rounded: 150px;
+  --radius-pill: 180px;
+
+  /* Shadows */
+  --shadow-md: -8px 8px 2px var(--color-shadow);
+  --shadow-md-hover: -8px 8px 1px var(--color-shadow-hover);
 
   /* Typography */
   --font-h1: "NKG-book";
   --font-body: "Ranade-Thin";
   --font-header: "Archivo";
-  --font-size-sm: 0.875rem;
-  --font-size-md: 1rem;
   --font-size-lg: 1.25rem;
+  --font-size-hero: clamp(var(--font-size-lg), 5vw, 3rem);
+  --font-size-base: 16px;
+  --letter-spacing-heading: var(--space-xs);
 
-  /* Transitions */
-  --transition-fast: 120ms ease;
+  /* Transitions & Animations */
   --transition-mid: 200ms ease;
+  --transition-hover: 0.3s ease;
+  --transition-smooth: 0.5s forwards;
+  --duration-entrance: 0.8s ease-out forwards;
+  --duration-focus: 1s ease-out forwards;
+  --duration-fade: 1s ease-out;
 }
