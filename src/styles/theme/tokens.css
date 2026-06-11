@@ -1,7 +1,7 @@
 @import "./fonts.css";
 
 :root {
-  /* Colors - Brand */
+  /* Colors */
   --color-bg-default: #f7f8fa;
   --color-gradient: linear-gradient(
     45deg,
@@ -13,16 +13,14 @@
     #f9f871
   );
   --color-text: #590031;
+  --color-text-inverse: #ffffff;
   --color-text-hover: #1e0010;
-  --color-accent-2: #ff6831;
-
-  /* Colors - UI */
+  --color-accent: #ff6831;
   --color-border: #cccccc;
   --color-shadow: rgba(0, 0, 0, 0.22);
   --color-shadow-hover: rgba(0, 0, 0, 0.3);
-  --color-text-inverse: #ffffff;
 
-  /* Spacing scale */
+  /* Spacing */
   --space-xs: 4px;
   --space-sm: 8px;
   --space-md: 12px;

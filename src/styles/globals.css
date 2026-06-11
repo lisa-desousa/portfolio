@@ -1,23 +1,15 @@
 @import "./theme/tokens.css";
-@import "./theme/light.css";
-@import "./theme/dark.css";
 
 html,
 body {
   margin: 0;
   padding: 0 var(--space-2xl);
   font-family: var(--font-body);
-  /* background: var(--color-bg); */
   color: var(--color-text);
-  transition:
-    background var(--transition-mid),
-    color var(--transition-mid);
 }
 
 h1 {
   font-family: var(--font-h1);
-
-  /* color: var(--color-text-light); */
 }
 
 h2,

@@ -64,7 +64,7 @@
 
 @keyframes colorFill {
   to {
-    background-color: var(--color-accent-2);
+    background-color: var(--color-accent);
     /* pil här */
   }
 }
